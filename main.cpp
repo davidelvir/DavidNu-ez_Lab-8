@@ -39,6 +39,13 @@ int main(){
 				cin >> x;
 				cout<<"ELija el binario B: ";
 				cin >> y;
+				while(x<0 || x>binarios.size()-1 || y<0 || y>binarios.size()-1){
+					cout<<"Un valor está equivocado. Elija los valores de nuevo."<<endl;
+					cout<<"Elija el binario A: ";
+					cin >> x;
+					cout<<"ELija el binario B: ";
+					cin >> y;
+				}
 				Binaria* A = binarios[x];
 				Binaria* B = binarios[y];
 				cout<<"A: "<<endl;
@@ -53,15 +60,22 @@ int main(){
 				break;
 			}
 			case 3:{
-				int x1;
-				int y1;
+				int x;
+				int y;
 				imprimirBinarios(binarios);
 				cout<<"Elija el binario A: ";
-				cin >> x1;
+				cin >> x;
 				cout<<"ELija el binario B: ";
-				cin >> y1;
-				Binaria* A = binarios[x1];
-				Binaria* B = binarios[y1];
+				cin >> y;
+				while(x<0 || x>binarios.size()-1 || y<0 || y>binarios.size()-1){
+					cout<<"Un valor está equivocado. Elija los valores de nuevo."<<endl;
+					cout<<"Elija el binario A: ";
+					cin >> x;
+					cout<<"ELija el binario B: ";
+					cin >> y;
+				}
+				Binaria* A = binarios[x];
+				Binaria* B = binarios[y];
 				cout<<"A: "<<endl;
 				cout<< A->toString();
 				cout<<"B: "<<endl;
@@ -81,6 +95,13 @@ int main(){
 				cin >> x;
 				cout<<"ELija el binario B: ";
 				cin >> y;
+				while(x<0 || x>binarios.size()-1 || y<0 || y>binarios.size()-1){
+					cout<<"Un valor está equivocado. Elija los valores de nuevo."<<endl;
+					cout<<"Elija el binario A: ";
+					cin >> x;
+					cout<<"ELija el binario B: ";
+					cin >> y;
+				}
 				Binaria* A = binarios[x];
 				Binaria* B = binarios[y];
 				cout<<"A: "<<endl;
@@ -102,6 +123,13 @@ int main(){
 				cin >> x;
 				cout<<"ELija el binario B: ";
 				cin >> y;
+				while(x<0 || x>binarios.size()-1 || y<0 || y>binarios.size()-1){
+					cout<<"Un valor está equivocado. Elija los valores de nuevo."<<endl;
+					cout<<"Elija el binario A: ";
+					cin >> x;
+					cout<<"ELija el binario B: ";
+					cin >> y;
+				}
 				Binaria* A = binarios[x];
 				Binaria* B = binarios[y];
 				cout<<"A: "<<endl;
@@ -123,6 +151,13 @@ int main(){
 				cin >> x;
 				cout<<"ELija el binario B: ";
 				cin >> y;
+				while(x<0 || x>binarios.size()-1 || y<0 || y>binarios.size()-1){
+					cout<<"Un valor está equivocado. Elija los valores de nuevo."<<endl;
+					cout<<"Elija el binario A: ";
+					cin >> x;
+					cout<<"ELija el binario B: ";
+					cin >> y;
+				}
 				Binaria* A = binarios[x];
 				Binaria* B = binarios[y];
 				cout<<"A: "<<endl;
